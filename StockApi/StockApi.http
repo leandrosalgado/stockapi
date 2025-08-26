@@ -7,7 +7,7 @@ Accept: application/json
 ###
 
 # Get details for a specific ticker
-GET {{StockApi_HostAddress}}/api/v1/stock/
+GET {{StockApi_HostAddress}}/api/v1/stock/AAPL
 Accept: application/json
 
 ###
