@@ -79,4 +79,4 @@ Errors:
 dotnet run --project StockApi
 ```
 
-4. Access Swagger UI at `http://localhost:{port}/swagger` (development only).
+4. Access Swagger UI at `http://localhost:5189/swagger` (development only).
