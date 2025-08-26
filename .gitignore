@@ -1,0 +1,70 @@
+# .NET
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+build/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Resharper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_Store
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish
+publish/
+
+# npm
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# JetBrains
+.idea/
+*.dotCover
+
+# VS Code
+.vscode/
+
+# Local secrets
+secrets.json

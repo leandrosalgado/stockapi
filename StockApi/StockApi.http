@@ -1,0 +1,19 @@
+@StockApi_HostAddress = http://localhost:5189
+
+# Get all tickers
+GET {{StockApi_HostAddress}}/api/v1/stock/tickers
+Accept: application/json
+
+###
+
+# Get details for a specific ticker
+GET {{StockApi_HostAddress}}/api/v1/stock/
+Accept: application/json
+
+###
+
+# Simulate buying a stock (current implementation uses GET)
+GET {{StockApi_HostAddress}}/api/v1/stock/MSFT/buy?budget=1000
+Accept: application/json
+
+###

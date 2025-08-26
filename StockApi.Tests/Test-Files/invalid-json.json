@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "", // Comments will trigger an error
+    "date": "2025-07-17",
+    "open": -10.0,
+    "close": 202.30,
+    "high": 203.00,
+    "low": 197.80,
+    "volume": 24000000
+  }
+]
