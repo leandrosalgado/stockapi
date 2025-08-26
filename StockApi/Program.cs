@@ -4,8 +4,6 @@ using StockApi.Converters;
 using StockApi.Repositories;
 using StockApi.Services;
 
-
-// TODO: Remove server headers such as Kestrel and etc ( can be handled in a middleware in the API or in the reverse proxy)
 // TODO: Compression and things like that also could be configured in the API or handled by a proxy
 // TODO: Authentication etc
 // TODO: Middleware with error handling customization
@@ -15,6 +13,12 @@ using StockApi.Services;
 // TODO: Comment more the classes and methods
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Remove Server information for security
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.AddServerHeader = false;
+});
 
 // Add services to the container.
 
